@@ -1,0 +1,124 @@
+*
+{
+text-align: center;
+margin: 0px; 
+}
+
+body
+{
+padding: 70px; 
+}
+
+#ya
+{
+display: inline-block;
+padding: 10px; 
+font-size: 23px; 
+border-radius: 22px; 
+border: 1px solid gray;
+margin: 20px; 
+margin-top: 40px
+}
+
+#btn
+{
+background: orange; 
+border-radius: 100px; 
+padding: 10px 20px; 
+font-size: 17px; 
+color: white; 
+border: 1px solid gray;
+display: inline-block;
+cursor: pointer;
+font-family: calibri
+}
+
+#messageName
+{
+padding: 5px 6px; 
+background: white; 
+font-size: 10px; 
+position: absolute;
+left: 38%; 
+top: 100px;
+display: none;
+transition: 0.6s
+}
+
+#phoneName
+{
+padding: 5px 6px; 
+background: white; 
+font-size: 10px; 
+position: absolute;
+left: 55%; 
+top: 100px;
+display: none;
+transition: 0.6s
+}
+
+#nana
+{
+padding: 5px 6px; 
+background: white; 
+font-size: 10px; 
+position: absolute;
+left: 54%; 
+top: 100px;
+display: none;
+transition: 0.6s
+}
+
+#phoneLength
+{
+padding: 5px 6px; 
+background: white; 
+font-size: 10px; 
+position: absolute;
+left: 53%; 
+top: 100px;
+display: none;
+transition: 0.6s
+}
+
+#text
+{
+border: 1px solid gray;
+border-radius: 20px; 
+padding: 10px 14px; 
+transition-duration: 0.2s;
+transition-timing-function: ease;
+}
+
+#text:hover
+{
+border: 2px solid blue;
+padding: 9px 13px; 
+}
+
+#pho
+{
+border: 1px solid gray;
+border-radius: 20px; 
+padding: 10px 14px; 
+transition-duration: 0.2s;
+transition-timing-function: ease;
+}
+
+#pho:hover
+{
+border: 2px solid blue;
+padding: 9px 13px; 
+}
+
+#sub
+{
+padding: 7px 30px; 
+border-radius: 20px;
+background: blue; 
+border: none;
+color: white; 
+font-size: 20px; 
+font-weight: bold;
+font-family: calibri
+}

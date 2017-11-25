@@ -1,0 +1,163 @@
+body
+{
+padding: 0px; 
+margin: 0px; 
+background: url(../pic/hotel.jpg)no-repeat center center/cover;
+height: 500px;
+font-family: calibri; 
+}
+
+#rez
+{
+
+
+font-family: calibri; 
+color: #323330; 
+font-size: 40px;
+font-weight: bold;
+padding: 20px;
+height: 100%; 
+position: fixed;
+right: 0px; 
+width: 30%; 
+background: rgba(0,0,0,0.9);
+text-align: center;
+}
+
+.pi
+{
+margin: 0 auto;
+display: block;
+text-align: center;
+}
+
+.pi h1
+{
+font-size: 25px; 
+color: white; 
+margin: 15px 0px; 
+
+}
+
+#rez h1
+{
+font-size: 25px; 
+color: white; 
+margin: 15px 0px; 
+text-align: center;
+
+}
+
+#rez h4
+{
+font-size: 18px; 
+color: gold; 
+margin: 15px 0px; 
+text-align: center;
+}
+
+#fnum
+{
+color: white;
+}
+
+#btn
+{
+display: inline-block;
+font-size: 16px; 
+color: white; 
+background: gold;
+padding: 10px 12px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+#selectId
+{
+padding: 10px;
+border-radius: 20px;
+}
+
+#rez p
+{
+font-size: 15px; 
+color: white;
+border-bottom: 1px dashed white; 
+margin: 3px 0px;
+}
+
+#modal
+{
+position: fixed;
+width: 100%; 
+height: 100%; 
+display: block;
+background: rgba(0,0,0,0.9);
+z-index: 1; 
+display: none;
+}
+
+#content
+{
+width: 65%; 
+height: 90%;
+background: white;
+margin: 3% auto;
+border-radius: 10px;
+text-align: center;
+padding: 30px; 
+box-sizing: border-box;
+position: relative;
+}
+
+#content p
+{
+font-size: 23px;
+margin: 10px
+}
+
+#close
+{
+font-size: 30px;
+position: absolute;
+right: 20px;
+top: 8px;
+cursor: pointer;
+transition: 0.4s
+}
+
+#close:hover
+{
+color: orange
+}
+
+input[type="text"]
+{
+padding: 5px 7px; 
+font-size: 12px; 
+color: gray;
+border-radius: 20px; 
+border: 1px solid gray;
+margin: 20px 10px
+}
+
+select
+{
+padding: 5px; 
+font-size: 12px; 
+color: gray; 
+border-radius: 20px
+}
+
+.fsel, .ssel
+{
+margin: 5px 10px;
+display: inline-block;
+}
+
+textarea
+{
+resize:none;
+box-sizing: border-box;
+padding: 15px
+}
