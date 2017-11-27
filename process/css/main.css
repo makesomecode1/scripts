@@ -1,76 +1,26 @@
-#cont
+.cont
 {
-width: 500px; 
-min-height: 600px; 
-margin: 0 auto; 
-color: gray; 
-text-align: center;
-font-family: calibri
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 
-#tab1, #tab2, #tab3
+.item
 {
-display: inline-block;
-width: 32%;
-text-align: center;
-border: 1px solid gray;
-border-radius: 5px 5px 0px 0px;
-border-bottom: 0px;
-cursor: pointer;
-background: lightgray;
-font-size: 20px; 
-padding-top: 10px; 
-padding-bottom: 10px;
-transition: 0.3s
+    width: 200px; 
+    height: 350px; 
+    padding: 10px;
+    background: url(../pic/hotel.jpg) no-repeat center center/300%;
+    transition: 0.4s
+
 }
 
-#tab1
+.item:hover
 {
-    background: black;
+    width: 200px; 
+    height: 350px; 
+    padding: 10px;
+    background: url(../pic/hotel.jpg) no-repeat center center/500%;
     
-}
-
-#first
-{
-    display: block;
-    background: black;
-    padding: 15px;
-    box-sizing: border-box;
-    width: 99%; 
-    margin: 0 auto;
-    transition: 0.3s;
-    min-height: 320px;
-    text-align: left;
-    color: #fff
-}
-
-
-
-#sec
-{
-	display: none;
-	padding: 15px;
-    box-sizing: border-box;
-    background: black;
-    width: 99%; 
-    margin: 0 auto;
-    transition: 0.3s;
-    min-height: 320px;
-    text-align: left;
-    color: #fff
-}
-
-
-#tre
-{
-    display: none;
-    padding: 15px;
-    box-sizing: border-box;
-    background: black;
-    width: 99%; 
-    margin: 0 auto;
-    transition: 0.3s;
-    min-height: 320px;
-    text-align: left;
-    color: #fff
 }
