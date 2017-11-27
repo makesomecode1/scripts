@@ -2,15 +2,19 @@ body
 {
 padding: 0px; 
 margin: 0px; 
-background: url(../pic/hotel.jpg)no-repeat center center/cover;
-height: 500px;
-font-family: calibri; 
+background: url(../pic/hotel.jpg) no-repeat top center/100%;
+width: 100%;
+font-family: calibri;
+position: fixed;
+height: 100%;
+top: 0px; 
+left: 0px
+
+
 }
 
 #rez
 {
-
-
 font-family: calibri; 
 color: #323330; 
 font-size: 40px;
